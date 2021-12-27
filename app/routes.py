@@ -6,12 +6,12 @@ from flask import render_template
 def index():
     titulo = 'Home'
     nome = "Carlos"
-    arqCss ='principal.css'
+    arqCss ='style/principal.css'
     return render_template('index.html',nome=nome, titulo=titulo, arqCss=arqCss)
 
 @app.route('/contatos')
 def contatos():
     titulo = 'Contatos'
     ms = "Meu Contato com essa ai"
-    arqCss ='principal.css'
+    arqCss ='style/principal.css'
     return render_template('contatos.html',ms=ms, titulo=titulo, arqCss=arqCss)
