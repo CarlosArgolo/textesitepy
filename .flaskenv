@@ -1,1 +1,2 @@
 FLASK_APP=textesitepy.py
+FLASK_ENV=deployment
