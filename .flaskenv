@@ -1,2 +1,1 @@
 FLASK_APP=textesitepy.py
-FLASK_ENV=development
