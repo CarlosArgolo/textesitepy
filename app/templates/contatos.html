@@ -1,15 +1,7 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="{{ url_for('static', filename='style/principal.css')}}" rel="stylesheet" type="text/css">
-    <title>Pagina de contatos</title>
-</head>
-<body>    
+  {% extend 'menuBase.html' %}
+
+    {% block conteudo %}
     <h2> {{ms}} </h2>
     <img src="{{ url_for('static',filename='image/IMG-20190826-WA0009.jpg')}}">
    
-</body>
-</html>
+    {% endblock %}
