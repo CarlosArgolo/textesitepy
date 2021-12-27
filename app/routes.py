@@ -8,6 +8,6 @@ def index():
     return render_template('index.html',nome=nome)
 
 @app.route('/contatos')
-def index():
+def contatos():
     ms = "Meu Contato com essa ai"
     return render_template('contatos.html',ms=ms)
